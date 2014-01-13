@@ -273,10 +273,4 @@ newwin() {
     newtab "$@" # Simply pass through to 'newtab', which will examine the call stack to see how it was invoked.
 }
 
-alias c='cd ~/Dropbox/code'
-alias d='cd ~/Dropbox'
-alias action='cd ~/Dropbox/code/nodejs/nodeInAction/'
-alias v='cd ~/Dropbox/code/app/video-app'
-
-
 export PATH=/usr/local/share/npm/bin:$PATH
