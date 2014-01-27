@@ -274,3 +274,4 @@ newwin() {
 }
 
 export PATH=/usr/local/share/npm/bin:$PATH
+defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
