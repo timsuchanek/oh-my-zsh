@@ -39,13 +39,11 @@ alias vali="v $HOME/.dotfiles/.vimrc.local"
 alias seed='cd ~/Dropbox/code/opensource/express-angular-login-seed/'
 alias startup='cd ~/Dropbox/code/startup/'
 
-emulate zsh -c '. ~/.nvm/nvm.sh'
-
 alias vim='mvim -v'
 alias v='mvim -v'
 alias rr="source $HOME/.zshrc && clear"
 
-alias c='cd ~/Dropbox/code'
+alias c='cd ~/code'
 alias d='cd ~/Dropbox'
 
 alias gs="git status"
@@ -59,4 +57,17 @@ alias gco="git checkout"
 alias gcl="git clone"
 alias gau="grunt autotest:unit"
 alias gae="grunt autotest:e2e"
+alias pferde="ssh -i ~/code/maik/Pferdeseite.pem ubuntu@54.186.3.75"
 alias ssd="ssh deploy@4wizards.com"
+alias gc="git commit -a -m "
+alias di="docker run -i -t"
+alias db="docker build -t"
+alias flush="dscacheutil -flushcache"
+alias hosts="sudo vim /private/etc/hosts"
+alias b="boot2docker"
+alias cf="cd ~/code/crowddining-frontend"
+alias cb="cd ~/code/crowddining-backend"
+alias gcc="gcc-4.8"
+alias cmongo="mongod --dbpath=$HOME/code/crowddining-dev-db/"
+alias mochaenv="NODE_ENV=test mocha"
+alias cdserver"ssh -i ~/.ssh/Mower.pem ubuntu@54.213.185.29"

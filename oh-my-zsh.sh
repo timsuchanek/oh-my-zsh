@@ -273,5 +273,14 @@ newwin() {
     newtab "$@" # Simply pass through to 'newtab', which will examine the call stack to see how it was invoked.
 }
 
-export PATH=/usr/local/share/npm/bin:$PATH
+export PATH=/usr/texbin/:/Users/tim/.rvm/gems/ruby-2.0.0-p0/bin:/usr/local/share/npm/bin:$PATH
 defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
+export DOCKER_HOST=tcp://localhost:4243
+export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+export GOPATH=/Users/tim/go/
+export PATH=$GOPATH/bin:$PATH
+export PKG_CONFIG_PATH=$(brew --prefix python3)/Frameworks/Python.framework/Versions/3.4/lib/pkgconfig
+export DOCKER_HOST=tcp://192.168.59.103:2375
+#sudo ipfw -q -f flush
+#sudo ipfw add 100 fwd 127.0.0.1,8080 tcp from any to any 80 in
+#sudo ipfw add 100 fwd 127.0.0.1,3000 tcp from any to any 80 in
